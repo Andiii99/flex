@@ -29,6 +29,9 @@ nav li{
     text-align: center;
     flex: 1;
 }
+nav li a{
+    text-decoration: none;
+}
 
 /*article*/
 .flexbox-container{
