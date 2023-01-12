@@ -1,15 +1,25 @@
 *{
     margin: 0;
 }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 header{
+   display: flex;
    text-align: center;
    background-color: red;
+   flex: 2 0 auto ;
+   flex-direction: column;
+   justify-content: space-around;
 }
 nav{
     display: flex;
     list-style: none;
-    flex:1;
+    
+    background-color: red;
    
    
     
@@ -20,44 +30,47 @@ nav li{
     flex: 1;
 }
 
-
-.lesaside{
-    background-color: cadetblue;
+/*article*/
+.flexbox-container{
+    background-color: aquamarine;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-content: center;
+}
+.article1{
+    
+    margin: 10px;
+    border: 2px dotted white;
+    flex:1 0 200px;
+}
+.flexbox-article1{
+    min-height: 100px;
+}
+.flexbox-article2{
+    min-height: 200px;
+}
+.flexbox-article3{
+    min-height: 300px;
+}
+main{
+    display: flex;
+    flex: 4 0 auto;
 
-
-    justify-content: space-between;
-    height: 512px;
 }
 .aside1{
-    
     background-color: yellow;
-    width: 300px;
-    
     padding: 50px;
 }
 .aside2{
-    background-color: rgb(113, 38, 113);
-    width: 300px;
+    background-color: violet;
     padding: 50px;
 }
 footer{
-    text-align: center;
-    background-color: rgb(27, 184, 27);
-    padding: 50px;
-    margin: 0;
-    
-}
-
-p{
-    
-    flex-flow: row wrap;
-   
     background-color: green;
-  
+    flex: 2 0 auto;
+    text-align: center;
     
-}
-article{
-    border: 2px dashed white;
-}
 
+}
