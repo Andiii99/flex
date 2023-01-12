@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+header{
+   text-align: center;
+   background-color: red;
+}
+nav{
+    display: flex;
+    list-style: none;
+    flex:1;
+   
+   
+    
+}
+nav li{
+    border: 2px solid black;
+    text-align: center;
+    flex: 1;
+}
+
+
+.lesaside{
+    background-color: cadetblue;
+    display: flex;
+
+
+    justify-content: space-between;
+    height: 512px;
+}
+.aside1{
+    
+    background-color: yellow;
+    width: 300px;
+    
+    padding: 50px;
+}
+.aside2{
+    background-color: rgb(113, 38, 113);
+    width: 300px;
+    padding: 50px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(27, 184, 27);
+    padding: 50px;
+    margin: 0;
+    
+}
+
+p{
+    
+    flex-flow: row wrap;
+   
+    background-color: green;
+  
+    
+}
+article{
+    border: 2px dashed white;
+}
+
